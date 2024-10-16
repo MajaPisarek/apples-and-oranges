@@ -5,6 +5,9 @@
 #
 #   description: A version of the game "Mastermind"
 
+
+
+
 # Start by introducing the game and sharing an overview of the rules.
 print("""
 
@@ -28,6 +31,22 @@ Banana: None of the digits in your guess are in the secret code.
 # Player 1 is the gatekeeper. Get their name and their secret code.
 name1 = input("gatekeeper, what is your name? : ")
 code = input("Now enter your secret, three-digit code: ")
+
+print(""".
+..
+...
+..
+.
+..
+...
+..
+.
+..
+...
+..
+.
+..
+No looking!""")
 
 # Player 2 is the keymaster. Ask their name and their guess.
 # They get 10 tries to break the code.
